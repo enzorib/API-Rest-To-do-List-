@@ -50,7 +50,7 @@ Na pasta Imagens contém print dos testes no PostMan nomeados e odenados.
 
 Inciar Pojeto Node
 ```sh
-npm init -y
+npm run dev
 ```
 
 ## 🛠 Rotas
