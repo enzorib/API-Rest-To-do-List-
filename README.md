@@ -48,10 +48,14 @@ Na pasta Imagens contém print dos testes no PostMan nomeados e odenados.
 
 ## 🛠 Iniciar Servidor
 
-Inciar Servidor
+Inciar Pojeto Node
 ```sh
-npm run dev
-
+npm init -y
+```
+Instale dependências
+```sh
+npm i express dotenv
+npm i -D nodemon
 ```
 
 ## 🛠 Rotas
@@ -79,12 +83,12 @@ http://localhost:4000/atividades
 
 ## 🛠 Exemplos de JSON
 
-{
-    "materia"="Banco de Dados",
-    "Status"="CConcluido",
-    "prioridade"="Alta",
-    "descricao"="Teste"
-}
+{<br>
+    "materia"="Banco de Dados",<br>
+    "Status"="CConcluido",<br>
+    "prioridade"="Alta",<br>
+    "descricao"="Teste"<br>
+}<br>
 
 
 
