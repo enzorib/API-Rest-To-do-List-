@@ -10,11 +10,84 @@
 ## Descrição
 
 Esse projeto é uma API REST simples, que uitiliza Node.js, Express e Nodemon. Serve para gerenciar uma lista de tarefas (To-Do-List) com funcionaidade de CRUD:
-*Criar atividade
-*Listar as tarefas
-*Atualizar uma tarefa
-*Deletar uma tarefa
+* Criar atividade
+* Listar as tarefas
+* Atualizar uma tarefa
+* Deletar uma tarefa
 
 Sem uso de banco de dados, serão armazenadas em memória. A comunicação entre cliente e servidor é via JSON.
 
 Na pasta Imagens contém print dos testes no PostMan nomeados e odenados.
+
+## 🛠 Estrutura de pastas
+
+-Raiz<br>
+|<br>
+|-->Imagens<br>
+|-->node_modules<br>
+|-->src<br>
+  &emsp;|-->App.js<br>
+  &emsp;|-->routes.js<br>
+  &emsp;|-->server.js<br>
+|-->.env<br>
+|-->package-lock.json<br>
+|-->package.json<br>
+|readme.md<br>
+
+## 🛠 Pré-requisitos
+
+* Node.js
+* PostMan
+* Express
+* Nodemon
+
+## 🛠 Instruções para instalar as dependências
+
+- npm init -y
+- npm 
+
+## 🛠 Iniciar Servidor
+
+Inciar Servidor
+```sh
+npm run dev
+
+```
+
+## 🛠 Rotas
+
+```sh
+delete
+http://localhost:4000/atividades/:id
+
+```
+```sh
+Atualizar
+http://localhost:4000/atividades/:id
+
+```
+```sh
+Listar_Atividade
+http://localhost:4000/atividades
+
+```
+```sh
+Criar_Atividade
+http://localhost:4000/atividades
+
+```
+
+## 🛠 Exemplos de JSON
+
+{
+    "materia"="Banco de Dados",
+    "Status"="CConcluido",
+    "prioridade"="Alta",
+    "descricao"="Teste"
+}
+
+
+
+
+
+
