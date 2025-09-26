@@ -52,11 +52,6 @@ Inciar Pojeto Node
 ```sh
 npm init -y
 ```
-Instale dependências
-```sh
-npm i express dotenv
-npm i -D nodemon
-```
 
 ## 🛠 Rotas
 
